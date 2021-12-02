@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T06:27:41.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="5Vi7Y5EQSgcZnMZXHG2k" version="15.8.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-12-02T06:33:36.741Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="9HvFwBz3mlEuwlSUSlvP" version="15.8.3" type="github" pages="12">
   <diagram id="b-mitFxcJzm53T9OMudY" name="tcpip">
     <mxGraphModel dx="1185" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1026,7 +1026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U5sjjO6KzdouKFvGjM3L" name="veth-pair">
-    <mxGraphModel dx="1038" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4WPnqizxolDEYRLgitDI-0" />
         <mxCell id="4WPnqizxolDEYRLgitDI-1" parent="4WPnqizxolDEYRLgitDI-0" />
@@ -1078,7 +1078,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cIo4NBUF1LtBJeWTmloV" name="direct">
-    <mxGraphModel dx="1038" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1104,7 +1104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7nMT3gjXXLD6ZvvXCvkU" name="switch">
-    <mxGraphModel dx="1038" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gQlFoIClU0h7-StgMI-S-0" />
         <mxCell id="gQlFoIClU0h7-StgMI-S-1" parent="gQlFoIClU0h7-StgMI-S-0" />
@@ -1136,7 +1136,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8n-iYeMkgh2QAIJsUD1Y" name="router">
-    <mxGraphModel dx="1038" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="p163eGLFHdbgokhi3lIf-0" />
         <mxCell id="p163eGLFHdbgokhi3lIf-1" parent="p163eGLFHdbgokhi3lIf-0" />
@@ -1178,7 +1178,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bOwKt8TJ0UCFp--F-tFM" name="router-lan">
-    <mxGraphModel dx="1278" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="txY806hHe2ZytlH0EjpX-0" />
         <mxCell id="txY806hHe2ZytlH0EjpX-1" parent="txY806hHe2ZytlH0EjpX-0" />
@@ -1258,7 +1258,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hK6M5ag-WVMc6bE5dIKz" name="zone-router-lan">
-    <mxGraphModel dx="2447" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2354" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="3AWUMx_J7axIJLc7tZUv-0" />
         <mxCell id="3AWUMx_J7axIJLc7tZUv-1" parent="3AWUMx_J7axIJLc7tZUv-0" />
@@ -1426,6 +1426,9 @@
         </mxCell>
         <mxCell id="HhtmbDSUw60Xo5NjLxld-1" value="R2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="3AWUMx_J7axIJLc7tZUv-1" vertex="1">
           <mxGeometry x="840" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5OiZukXg1t0aZ6LV5A84-0" value="Core Switch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="3AWUMx_J7axIJLc7tZUv-1">
+          <mxGeometry x="512" y="30" width="96" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
