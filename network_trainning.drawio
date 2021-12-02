@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T06:40:33.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="CX43WZFykTiUQrJBw3n0" version="15.8.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-12-02T06:44:16.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="FnG1LdgOw2oudw4MPWyb" version="15.8.3" type="github" pages="12">
   <diagram id="b-mitFxcJzm53T9OMudY" name="tcpip">
     <mxGraphModel dx="1185" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -788,6 +788,25 @@
         </mxCell>
         <mxCell id="-i83AL7b63GocyyfURNv-0" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;三层路由通信过程&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;pc1发送“hello world”到pc4&lt;/div&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;1、pc1协议栈依次封装包，在网络层根据目标地址192.168.4.104查找路由表，匹配默认路由，确认从eth0端口发出，目的ip设置为192.168.4.104，数据链路层将目标mac地址设置为R1路由器eth1端口的mac地址（可能需要arp获取）&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;2、数据包到达R1，其协议栈依次解包，在网络层处理时，发现目的地址是其他机器，需要转发，查询路由表，匹配192.168.4.0/24的路由，确认从eth4端口发出，数据链路层设置目的mac地址为pc4的mac地址&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;3、pc4收到R1转发的包，检查其目的mac地址与自己相符，于是交由本协议栈处理，依次往上解包，直到获取到hello world消息&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontFamily=Comic Sans MS;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
           <mxGeometry x="770" y="80" width="290" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="k44DGk3oqruLJtccPsVJ-0" value="" style="endArrow=classic;html=1;rounded=0;curved=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="3HhZPVJpkTfoRdqZvDDx-1" target="Ygx6lkm02gg7LUI_zbH5-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="290" as="sourcePoint" />
+            <mxPoint x="77" y="155" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k44DGk3oqruLJtccPsVJ-1" value="" style="endArrow=classic;html=1;rounded=0;curved=1;dashed=1;dashPattern=1 4;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="3HhZPVJpkTfoRdqZvDDx-1" source="k11zBz43Cf92LweKVgzT-27" target="k11zBz43Cf92LweKVgzT-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="290" />
+              <mxPoint x="410" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
