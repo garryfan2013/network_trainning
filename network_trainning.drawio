@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T10:59:44.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="jIEPX20tRHKpXimXzC9n" version="15.8.8" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-12-06T07:11:32.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15" etag="7lbUgf_KLq07BDNQDiB3" version="15.8.8" type="github" pages="12">
   <diagram id="b-mitFxcJzm53T9OMudY" name="tcpip">
-    <mxGraphModel dx="1185" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="945" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="vqjw8esuNNkUXTKa8ZrC-0" />
         <mxCell id="vqjw8esuNNkUXTKa8ZrC-1" parent="vqjw8esuNNkUXTKa8ZrC-0" />
@@ -1130,22 +1130,22 @@
         <mxCell id="r8Rq_5u-eOLPjXOMDpWV-1" value="pc2&lt;br&gt;192.168.1.102/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="130" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9uiGJPoSysQy9ZugA_I4-1" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;/li&gt;&lt;li&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/li&gt;&lt;li&gt;ip link set veth1-1 pc1&lt;/li&gt;&lt;li&gt;ip link set veth1-2 pc2&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.1.102/24 dev veth1-2&lt;/li&gt;&lt;li&gt;ip -n pc1 link set veth1-1 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set veth1-2 up&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="9uiGJPoSysQy9ZugA_I4-1" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;/li&gt;&lt;li&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/li&gt;&lt;li&gt;ip link set veth1-1 pc1&lt;/li&gt;&lt;li&gt;ip link set veth1-2 pc2&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.1.102/24 dev veth1-2&lt;/li&gt;&lt;li&gt;ip -n pc1 link set veth1-1 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set veth1-2 up&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="130" y="170" width="470" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="7nMT3gjXXLD6ZvvXCvkU" name="switch">
-    <mxGraphModel dx="1185" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="945" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="gQlFoIClU0h7-StgMI-S-0" />
         <mxCell id="gQlFoIClU0h7-StgMI-S-1" parent="gQlFoIClU0h7-StgMI-S-0" />
         <mxCell id="pQRAVGxHAwFbsBEq-hZC-0" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="gQlFoIClU0h7-StgMI-S-1" vertex="1">
-          <mxGeometry x="224" y="350" width="100" height="70" as="geometry" />
+          <mxGeometry x="120" y="200" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pQRAVGxHAwFbsBEq-hZC-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="gQlFoIClU0h7-StgMI-S-1" vertex="1">
-          <mxGeometry x="504" y="350" width="100" height="70" as="geometry" />
+          <mxGeometry x="400" y="200" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="jScJpU99xdpm0L-ec7Pi-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.07;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=none;endFill=0;exitX=0.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="gQlFoIClU0h7-StgMI-S-1" source="jScJpU99xdpm0L-ec7Pi-1" target="pQRAVGxHAwFbsBEq-hZC-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1154,16 +1154,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jScJpU99xdpm0L-ec7Pi-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" parent="gQlFoIClU0h7-StgMI-S-1" vertex="1">
-          <mxGeometry x="354" y="200" width="100" height="30" as="geometry" />
+          <mxGeometry x="250" y="50" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fd4l-KYyiK1CYbmBTFIF-0" value="S1&lt;br&gt;192.168.1.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="gQlFoIClU0h7-StgMI-S-1" vertex="1">
-          <mxGeometry x="344" y="160" width="120" height="30" as="geometry" />
+          <mxGeometry x="240" y="10" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fd4l-KYyiK1CYbmBTFIF-2" value="pc1&lt;br&gt;192.168.1.101/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="gQlFoIClU0h7-StgMI-S-1" vertex="1">
-          <mxGeometry x="214" y="430" width="120" height="30" as="geometry" />
+          <mxGeometry x="110" y="280" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fd4l-KYyiK1CYbmBTFIF-3" value="pc2&lt;br&gt;192.168.1.102/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="gQlFoIClU0h7-StgMI-S-1" vertex="1">
-          <mxGeometry x="494" y="430" width="120" height="30" as="geometry" />
+          <mxGeometry x="390" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QhhufnKoxvc0EpyMPKh3-0" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;/li&gt;&lt;li&gt;brctl addbr sw1&lt;/li&gt;&lt;li&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/li&gt;&lt;li&gt;ip link add veth2-1 type veth peer name veth2-2&lt;/li&gt;&lt;li&gt;ip link set veth1-1 pc1&lt;/li&gt;&lt;li&gt;ip link set veth1-2 pc2&lt;/li&gt;&lt;li&gt;brctl addif sw1 veth1-2&lt;/li&gt;&lt;li&gt;brctl addif sw1 veth2-2&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.1.102/24 dev veth1-2&lt;/li&gt;&lt;li&gt;ip -n pc1 link set veth1-1 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set veth1-2 up&lt;/li&gt;&lt;li&gt;ip link set veth2-1 up&lt;/li&gt;&lt;li&gt;ip link set veth2-2 up&lt;/li&gt;&lt;li&gt;ip link set sw1 up&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="gQlFoIClU0h7-StgMI-S-1">
+          <mxGeometry x="110" y="350" width="470" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
