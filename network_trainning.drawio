@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T09:41:59.221Z" agent="5.0 (Windows)" etag="O30bn5JEFg0U0Vqeb2gU" version="15.9.1" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-12-07T10:35:12.076Z" agent="5.0 (Windows)" etag="r4o3g5Adkbtogu-ZRnkw" version="15.9.1" type="github" pages="13">
   <diagram id="b-mitFxcJzm53T9OMudY" name="tcpip">
     <mxGraphModel dx="1038" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -318,7 +318,7 @@
         <mxCell id="xbJgLqucEwYxnPkbWRQu-6" value="" style="points=[[0.03,0.03,0],[0.5,0,0],[0.97,0.03,0],[1,0.4,0],[0.97,0.745,0],[0.5,1,0],[0.03,0.745,0],[0,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.workstation;fillColor=#005073;strokeColor=none;dashed=1;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
           <mxGeometry x="577" y="414" width="80" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="xbJgLqucEwYxnPkbWRQu-11" value="S1 MAC address table" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;fillColor=none;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
+        <mxCell id="xbJgLqucEwYxnPkbWRQu-11" value="s1 MAC address table" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;fillColor=none;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
           <mxGeometry x="397" y="80" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xbJgLqucEwYxnPkbWRQu-12" value="ep03" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
@@ -369,7 +369,7 @@
         <mxCell id="xbJgLqucEwYxnPkbWRQu-29" value="pc3&lt;br&gt;192.168.1.103" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
           <mxGeometry x="147" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Q8MxCHtqyOnk-vGZl5dK-0" value="S1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
+        <mxCell id="Q8MxCHtqyOnk-vGZl5dK-0" value="s1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
           <mxGeometry x="372" y="400" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5R2HohlJwTS7P55tFQJ9-0" value="" style="group" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1" connectable="0">
@@ -420,7 +420,7 @@
         <mxCell id="c3KujicX3ez0US4CqL31-7" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;fillColor=none;" parent="c3KujicX3ez0US4CqL31-0" vertex="1">
           <mxGeometry x="110" y="60" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bu-nnuQL9g0upKNVkCam-0" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;二层交换通信过程&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;pc1发送“hello world”到pc4&lt;/div&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;1、pc1协议栈依次封装包，在网络层根据目标地址192.168.1.104查找路由表，确认从eth0端口发出，数据链路层将目标mac地址设置为pc4的mac地址（可能需要arp获取）&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;2、数据包到达S1，查询mac地址表，确认转发端口（如查询不到则在所有端口转发）&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;3、pc4收到S1转发的包，检查其目的mac地址与自己相符，于是交由本协议栈处理，依次往上解包，直到获取到hello world消息&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontFamily=Comic Sans MS;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
+        <mxCell id="Bu-nnuQL9g0upKNVkCam-0" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;二层交换通信过程&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;pc1发送“hello world”到pc4&lt;/div&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;1、pc1协议栈依次封装包，在网络层根据目标地址192.168.1.104查找路由表，确认从eth0端口发出，数据链路层将目标mac地址设置为pc4的mac地址（可能需要arp获取）&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;2、数据包到达s1，查询mac地址表，确认转发端口（如查询不到则在所有端口转发）&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;3、pc4收到s1转发的包，检查其目的mac地址与自己相符，于是交由本协议栈处理，依次往上解包，直到获取到hello world消息&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontFamily=Comic Sans MS;" parent="xbJgLqucEwYxnPkbWRQu-1" vertex="1">
           <mxGeometry x="690" y="80" width="270" height="440" as="geometry" />
         </mxCell>
         <mxCell id="icDRSCoTWV7zf3ggeAmP-0" value="" style="endArrow=classic;html=1;rounded=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" parent="xbJgLqucEwYxnPkbWRQu-1" target="xbJgLqucEwYxnPkbWRQu-11" edge="1">
@@ -596,7 +596,7 @@
         <mxCell id="dkS68jAwqdc9M66yCIve-0" value="pc1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="iFzb1qE4RooG4vSpQRDy-1" vertex="1">
           <mxGeometry x="204" y="420" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dkS68jAwqdc9M66yCIve-1" value="S1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="iFzb1qE4RooG4vSpQRDy-1" vertex="1">
+        <mxCell id="dkS68jAwqdc9M66yCIve-1" value="s1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="iFzb1qE4RooG4vSpQRDy-1" vertex="1">
           <mxGeometry x="394" y="420" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dkS68jAwqdc9M66yCIve-3" value="pc4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="iFzb1qE4RooG4vSpQRDy-1" vertex="1">
@@ -693,7 +693,7 @@
         <mxCell id="k11zBz43Cf92LweKVgzT-8" value="" style="points=[[0.03,0.03,0],[0.5,0,0],[0.97,0.03,0],[1,0.4,0],[0.97,0.745,0],[0.5,1,0],[0.03,0.745,0],[0,0.4,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.workstation;fillColor=#005073;strokeColor=none;dashed=1;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
           <mxGeometry x="640" y="414" width="80" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="k11zBz43Cf92LweKVgzT-9" value="R1 route table" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;fillColor=none;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
+        <mxCell id="k11zBz43Cf92LweKVgzT-9" value="r1 route table" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;fillColor=none;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
           <mxGeometry x="460" y="80" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k11zBz43Cf92LweKVgzT-10" value="eth3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
@@ -744,7 +744,7 @@
         <mxCell id="k11zBz43Cf92LweKVgzT-25" value="pc3&lt;br&gt;192.168.3.103" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
           <mxGeometry x="211" y="490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="k11zBz43Cf92LweKVgzT-26" value="R1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
+        <mxCell id="k11zBz43Cf92LweKVgzT-26" value="r1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
           <mxGeometry x="435" y="400" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k11zBz43Cf92LweKVgzT-27" value="" style="sketch=0;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router;fillColor=#FAFAFA;strokeColor=#005073;fontColor=#0000FF;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
@@ -786,7 +786,7 @@
         <mxCell id="Ygx6lkm02gg7LUI_zbH5-31" value="0.0.0.0" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=default;fillColor=none;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
           <mxGeometry x="570" y="200" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-i83AL7b63GocyyfURNv-0" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;三层路由通信过程&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;pc1发送“hello world”到pc4&lt;/div&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;1、pc1协议栈依次封装包，在网络层根据目标地址192.168.4.104查找路由表，匹配默认路由，确认从eth0端口发出，目的ip设置为192.168.4.104，数据链路层将目标mac地址设置为R1路由器eth1端口的mac地址（可能需要arp获取）&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;2、数据包到达R1，其协议栈依次解包，在网络层处理时，发现目的地址是其他机器，需要转发，查询路由表，匹配192.168.4.0/24的路由，确认从eth4端口发出，数据链路层封装二层包头，设置源mac地址为R1路由器eth4口的mac地址，目的mac地址为pc4的网口mac地址&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;3、pc4收到R1转发的包，检查其目的mac地址与自己相符，于是交由本协议栈处理，依次往上解包，直到获取到hello world消息&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontFamily=Comic Sans MS;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
+        <mxCell id="-i83AL7b63GocyyfURNv-0" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;三层路由通信过程&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;pc1发送“hello world”到pc4&lt;/div&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;1、pc1协议栈依次封装包，在网络层根据目标地址192.168.4.104查找路由表，匹配默认路由，确认从eth0端口发出，目的ip设置为192.168.4.104，数据链路层将目标mac地址设置为R1路由器eth1端口的mac地址（可能需要arp获取）&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;2、数据包到达r1，其协议栈依次解包，在网络层处理时，发现目的地址是其他机器，需要转发，查询路由表，匹配192.168.4.0/24的路由，确认从eth4端口发出，数据链路层封装二层包头，设置源mac地址为r1路由器eth4口的mac地址，目的mac地址为pc4的网口mac地址&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;3、pc4收到r1转发的包，检查其目的mac地址与自己相符，于是交由本协议栈处理，依次往上解包，直到获取到hello world消息&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontFamily=Comic Sans MS;" parent="3HhZPVJpkTfoRdqZvDDx-1" vertex="1">
           <mxGeometry x="770" y="80" width="290" height="440" as="geometry" />
         </mxCell>
         <mxCell id="k44DGk3oqruLJtccPsVJ-0" value="" style="endArrow=classic;html=1;rounded=0;curved=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" parent="3HhZPVJpkTfoRdqZvDDx-1" target="Ygx6lkm02gg7LUI_zbH5-0" edge="1">
@@ -951,7 +951,7 @@
         <mxCell id="D9DOKivsJf1Vfn0Gi057-35" value="pc1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="ikDKW9ocQEKDBmaOmGlA-1" vertex="1">
           <mxGeometry x="234" y="440" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D9DOKivsJf1Vfn0Gi057-36" value="R1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="ikDKW9ocQEKDBmaOmGlA-1" vertex="1">
+        <mxCell id="D9DOKivsJf1Vfn0Gi057-36" value="r1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="ikDKW9ocQEKDBmaOmGlA-1" vertex="1">
           <mxGeometry x="410" y="440" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="D9DOKivsJf1Vfn0Gi057-37" value="pc4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="ikDKW9ocQEKDBmaOmGlA-1" vertex="1">
@@ -987,7 +987,7 @@
         <mxCell id="RNzc-zpxKTIrl-EQMPCX-9" value="src 192.168.1.101&lt;br&gt;dst 192.168.1.104" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#36393d;fillColor=#ffcc99;" parent="NMIKTHvtTbIuqTaKtbuo-1" vertex="1">
           <mxGeometry x="110" y="90" width="118.33" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NMIKTHvtTbIuqTaKtbuo-0" value="src pc1_mac&lt;br&gt;dst R1_eth1_mac" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#36393d;fillColor=#ffcccc;" parent="NMIKTHvtTbIuqTaKtbuo-1" vertex="1">
+        <mxCell id="NMIKTHvtTbIuqTaKtbuo-0" value="src pc1_mac&lt;br&gt;dst r1_eth1_mac" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#36393d;fillColor=#ffcccc;" parent="NMIKTHvtTbIuqTaKtbuo-1" vertex="1">
           <mxGeometry y="90" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NMIKTHvtTbIuqTaKtbuo-2" value="" style="group" parent="ikDKW9ocQEKDBmaOmGlA-1" vertex="1" connectable="0">
@@ -1020,7 +1020,7 @@
         <mxCell id="NMIKTHvtTbIuqTaKtbuo-11" value="src 192.168.1.101&lt;br&gt;dst 192.168.1.104" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#36393d;fillColor=#ffcc99;" parent="NMIKTHvtTbIuqTaKtbuo-2" vertex="1">
           <mxGeometry x="110" y="90" width="118.33" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NMIKTHvtTbIuqTaKtbuo-12" value="src R1_eth4_mac&lt;br&gt;dst pc4_mac" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#36393d;fillColor=#ffcccc;" parent="NMIKTHvtTbIuqTaKtbuo-2" vertex="1">
+        <mxCell id="NMIKTHvtTbIuqTaKtbuo-12" value="src r1_eth4_mac&lt;br&gt;dst pc4_mac" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#36393d;fillColor=#ffcccc;" parent="NMIKTHvtTbIuqTaKtbuo-2" vertex="1">
           <mxGeometry y="90" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HZtuuIxCikVBS85VbgN5-0" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=1 4;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="ikDKW9ocQEKDBmaOmGlA-1" source="D9DOKivsJf1Vfn0Gi057-4" edge="1">
@@ -1056,7 +1056,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U5sjjO6KzdouKFvGjM3L" name="exp_intro">
-    <mxGraphModel dx="945" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4WPnqizxolDEYRLgitDI-0" />
         <mxCell id="4WPnqizxolDEYRLgitDI-1" parent="4WPnqizxolDEYRLgitDI-0" />
@@ -1092,23 +1092,23 @@
         <mxCell id="V-ycnI98k_9iY0EW1F6o-3" value="router" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
           <mxGeometry x="147.5" y="480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UaNd8CQOG-4HzTWDXR95-0" value="&lt;h1&gt;network namespace&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns add&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns list&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns exec -n [ns] [commnad]&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="4WPnqizxolDEYRLgitDI-1">
+        <mxCell id="UaNd8CQOG-4HzTWDXR95-0" value="&lt;h1&gt;network namespace&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns add&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns list&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns exec -n [ns] [commnad]&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
           <mxGeometry x="430" y="22.5" width="370" height="127.5" as="geometry" />
         </mxCell>
-        <mxCell id="UaNd8CQOG-4HzTWDXR95-1" value="&lt;h1&gt;veth pair&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="4WPnqizxolDEYRLgitDI-1">
+        <mxCell id="UaNd8CQOG-4HzTWDXR95-1" value="&lt;h1&gt;veth pair&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
           <mxGeometry x="430" y="180" width="370" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UaNd8CQOG-4HzTWDXR95-2" value="&lt;h1&gt;bridge&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;brctl&amp;nbsp;addbr br1&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;brctl addif br1 veth1-2&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="4WPnqizxolDEYRLgitDI-1">
+        <mxCell id="UaNd8CQOG-4HzTWDXR95-2" value="&lt;h1&gt;bridge&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;brctl&amp;nbsp;addbr br1&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;brctl addif br1 veth1-2&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
           <mxGeometry x="430" y="280" width="370" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UaNd8CQOG-4HzTWDXR95-3" value="&lt;h1&gt;host/network namespace&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip route add 192.168.1.0/24 via 192.168.1.1/24 dev eth0&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="4WPnqizxolDEYRLgitDI-1">
+        <mxCell id="UaNd8CQOG-4HzTWDXR95-3" value="&lt;h1&gt;host/network namespace&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip route add 192.168.1.0/24 via 192.168.1.1/24 dev eth0&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
           <mxGeometry x="430" y="413" width="380" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="cIo4NBUF1LtBJeWTmloV" name="direct">
-    <mxGraphModel dx="945" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1130,8 +1130,8 @@
         <mxCell id="r8Rq_5u-eOLPjXOMDpWV-1" value="pc2&lt;br&gt;192.168.1.102/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="130" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9uiGJPoSysQy9ZugA_I4-1" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;/li&gt;&lt;li&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/li&gt;&lt;li&gt;ip link set veth1-1 netns pc1&lt;/li&gt;&lt;li&gt;ip link set veth1-2 netns pc2&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.1.102/24 dev veth1-2&lt;/li&gt;&lt;li&gt;ip -n pc1 link set veth1-1 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set veth1-2 up&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="130" y="170" width="470" height="220" as="geometry" />
+        <mxCell id="JGhqpq34ADFrRqnn8DZY-1" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip link add pc1_eth0 type veth peer name pc2_eth0&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip link set pc1_eth0 netns pc1&lt;/li&gt;&lt;li&gt;ip link set pc2_eth0 netns pc2&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev pc1_eth0&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.1.102/24 dev pc2_eth0&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip -n pc1 link set pc1_eth0 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set pc2_eth0 up&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="470" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1165,8 +1165,8 @@
         <mxCell id="fd4l-KYyiK1CYbmBTFIF-3" value="pc2&lt;br&gt;192.168.1.102/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="gQlFoIClU0h7-StgMI-S-1" vertex="1">
           <mxGeometry x="390" y="280" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QhhufnKoxvc0EpyMPKh3-0" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;/li&gt;&lt;li&gt;brctl addbr sw1&lt;/li&gt;&lt;li&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/li&gt;&lt;li&gt;ip link add veth2-1 type veth peer name veth2-2&lt;/li&gt;&lt;li&gt;ip link set veth1-1 netns pc1&lt;/li&gt;&lt;li&gt;ip link set veth1-2 netns pc2&lt;/li&gt;&lt;li&gt;brctl addif sw1 veth1-2&lt;/li&gt;&lt;li&gt;brctl addif sw1 veth2-2&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.1.102/24 dev veth1-2&lt;/li&gt;&lt;li&gt;ip -n pc1 link set veth1-1 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set veth1-2 up&lt;/li&gt;&lt;li&gt;ip link set veth2-1 up&lt;/li&gt;&lt;li&gt;ip link set veth2-2 up&lt;/li&gt;&lt;li&gt;ip link set sw1 up&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" parent="gQlFoIClU0h7-StgMI-S-1" vertex="1">
-          <mxGeometry x="110" y="350" width="470" height="360" as="geometry" />
+        <mxCell id="9csadZJ1AK-7D8XbmIrz-0" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;/li&gt;&lt;li&gt;brctl addbr s1&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip link add pc1_eth0 type veth peer name s1_eth1&lt;/li&gt;&lt;li&gt;ip link add pc2_eth0 type veth peer name s1_eth2&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip link set pc1_eth0 netns pc1&lt;/li&gt;&lt;li&gt;ip link set pc2_eth0 netns pc2&lt;/li&gt;&lt;li&gt;brctl addif s1 s1_eth1&lt;/li&gt;&lt;li&gt;brctl addif s1 s1_eth2&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev pc1_eth0&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.1.102/24 dev pc2_eth0&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip -n pc1 link set pc1_eth0 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set pc2_eth0 up&lt;/li&gt;&lt;li&gt;ip link set s1_eth1 up&lt;/li&gt;&lt;li&gt;ip link set s1_eth2 up&lt;/li&gt;&lt;li&gt;ip link set s1 up&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="gQlFoIClU0h7-StgMI-S-1">
+          <mxGeometry x="110" y="350" width="470" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1210,8 +1210,8 @@
         <mxCell id="zauoYNSg2dNwkGdTt5m1-2" value="R1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="p163eGLFHdbgokhi3lIf-1" vertex="1">
           <mxGeometry x="200" y="70" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lk4pnqam4z6RY99WckTm-0" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;/li&gt;&lt;li&gt;ip netns add router&lt;/li&gt;&lt;li&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/li&gt;&lt;li&gt;ip link add veth2-1 type veth peer name veth2-2&lt;/li&gt;&lt;li&gt;ip link set veth1-1 netns pc1&lt;/li&gt;&lt;li&gt;ip link set veth2-1 netns pc2&lt;/li&gt;&lt;li&gt;ip link set veth1-2 netns router&lt;/li&gt;&lt;li&gt;ip link set veth2-2 netns router&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.10.102/24 dev veth2-1&lt;/li&gt;&lt;li&gt;ip -n router addr add 192.168.1.1/24 dev veth1-2&lt;/li&gt;&lt;li&gt;ip -n router addr add 192.168.10.1/24 dev veth2-2&lt;/li&gt;&lt;li&gt;ip -n pc1 link set veth1-1 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set veth2-1 up&lt;/li&gt;&lt;li&gt;ip -n router link set veth1-2 up&lt;/li&gt;&lt;li&gt;ip -n router link set veth2-2 up&lt;/li&gt;&lt;li&gt;ip -n pc1 route add 192.168.10.0/24 via 192.168.1.1 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 route add 192.168.1.0/24 via 192.168.10.1 dev veth2-1&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" parent="p163eGLFHdbgokhi3lIf-1" vertex="1">
-          <mxGeometry x="80" y="300" width="590" height="390" as="geometry" />
+        <mxCell id="3hrIsQPDj8h-WLL4IEvb-0" value="&lt;h1&gt;实验步骤&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;ip netns add pc1&lt;/li&gt;&lt;li&gt;ip netns add pc2&lt;/li&gt;&lt;li&gt;ip netns add r1&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/li&gt;&lt;li&gt;ip link add veth2-1 type veth peer name veth2-2&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip link set veth1-1 netns pc1&lt;/li&gt;&lt;li&gt;ip link set veth2-1 netns pc2&lt;/li&gt;&lt;li&gt;ip link set veth1-2 netns r1&lt;/li&gt;&lt;li&gt;ip link set veth2-2 netns r1&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip -n pc1 addr add 192.168.1.101/24 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 addr add 192.168.10.102/24 dev veth2-1&lt;/li&gt;&lt;li&gt;ip -n router addr add 192.168.1.1/24 dev veth1-2&lt;/li&gt;&lt;li&gt;ip -n router addr add 192.168.10.1/24 dev veth2-2&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip -n pc1 link set veth1-1 up&lt;/li&gt;&lt;li&gt;ip -n pc2 link set veth2-1 up&lt;/li&gt;&lt;li&gt;ip -n router link set veth1-2 up&lt;/li&gt;&lt;li&gt;ip -n router link set veth2-2 up&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip netns exec r1 sysctl net.ipv4.ip_forward=1&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;ip -n pc1 route add 192.168.10.0/24 via 192.168.1.1 dev veth1-1&lt;/li&gt;&lt;li&gt;ip -n pc2 route add 192.168.1.0/24 via 192.168.10.1 dev veth2-1&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;fontSize=14;" vertex="1" parent="p163eGLFHdbgokhi3lIf-1">
+          <mxGeometry x="80" y="300" width="590" height="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
