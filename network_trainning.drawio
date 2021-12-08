@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T10:39:57.534Z" agent="5.0 (Windows)" etag="VIzfyf-8ZZYwrWAfem0r" version="15.9.1" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-12-08T07:24:49.343Z" agent="5.0 (Windows)" etag="65mj12qH4ag40UoQRUYx" version="15.7.3" type="github" pages="14">
   <diagram id="b-mitFxcJzm53T9OMudY" name="tcpip">
-    <mxGraphModel dx="1038" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="vqjw8esuNNkUXTKa8ZrC-0" />
         <mxCell id="vqjw8esuNNkUXTKa8ZrC-1" parent="vqjw8esuNNkUXTKa8ZrC-0" />
@@ -137,7 +137,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TVx2w12uFgqpH9ngccuj" name="arp">
-    <mxGraphModel dx="1038" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="b5YOmnXZOsyaE5r6TCuo-0" />
         <mxCell id="b5YOmnXZOsyaE5r6TCuo-1" parent="b5YOmnXZOsyaE5r6TCuo-0" />
@@ -285,7 +285,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5938dl71F3JaHZSsKg_y" name="switch-priciple">
-    <mxGraphModel dx="1038" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="xbJgLqucEwYxnPkbWRQu-0" />
         <mxCell id="xbJgLqucEwYxnPkbWRQu-1" parent="xbJgLqucEwYxnPkbWRQu-0" />
@@ -457,7 +457,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IxN5ivslmIEc9_KOcGeO" name="switch-packet-stream">
-    <mxGraphModel dx="1865" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="iFzb1qE4RooG4vSpQRDy-0" />
         <mxCell id="iFzb1qE4RooG4vSpQRDy-1" parent="iFzb1qE4RooG4vSpQRDy-0" />
@@ -1056,7 +1056,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U5sjjO6KzdouKFvGjM3L" name="exp_intro">
-    <mxGraphModel dx="1038" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4WPnqizxolDEYRLgitDI-0" />
         <mxCell id="4WPnqizxolDEYRLgitDI-1" parent="4WPnqizxolDEYRLgitDI-0" />
@@ -1092,17 +1092,34 @@
         <mxCell id="V-ycnI98k_9iY0EW1F6o-3" value="router" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
           <mxGeometry x="147.5" y="480" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UaNd8CQOG-4HzTWDXR95-0" value="&lt;h1&gt;network namespace&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns add&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns list&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns exec -n [ns] [commnad]&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
-          <mxGeometry x="430" y="22.5" width="370" height="127.5" as="geometry" />
+        <mxCell id="UaNd8CQOG-4HzTWDXR95-0" value="&lt;h1&gt;network namespace&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;用网络命名空间来模拟独立的网络主机&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
+          <mxGeometry x="430" y="28.75" width="370" height="107.5" as="geometry" />
         </mxCell>
-        <mxCell id="UaNd8CQOG-4HzTWDXR95-1" value="&lt;h1&gt;veth pair&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip link add veth1-1 type veth peer name veth1-2&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
-          <mxGeometry x="430" y="180" width="370" height="120" as="geometry" />
+        <mxCell id="UaNd8CQOG-4HzTWDXR95-1" value="&lt;h1&gt;veth pair&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;用linux虚拟网卡来模拟一对互连的网卡&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
+          <mxGeometry x="430" y="169.5" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="UaNd8CQOG-4HzTWDXR95-2" value="&lt;h1&gt;bridge&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;brctl&amp;nbsp;addbr br1&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;brctl addif br1 veth1-2&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
-          <mxGeometry x="430" y="280" width="370" height="120" as="geometry" />
+        <mxCell id="UaNd8CQOG-4HzTWDXR95-2" value="&lt;h1&gt;bridge&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;用linux桥接设备来模拟二层交换机&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
+          <mxGeometry x="430" y="290" width="370" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="UaNd8CQOG-4HzTWDXR95-3" value="&lt;h1&gt;host/network namespace&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip route add 192.168.1.0/24 via 192.168.1.1/24 dev eth0&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
-          <mxGeometry x="430" y="413" width="380" height="120" as="geometry" />
+        <mxCell id="UaNd8CQOG-4HzTWDXR95-3" value="&lt;h1&gt;host/network namespace&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;用网络命名空间来模拟路由器&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" parent="4WPnqizxolDEYRLgitDI-1" vertex="1">
+          <mxGeometry x="430" y="413" width="380" height="97" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="AU9jpy49u628vA4sCeU1" name="network_ns">
+    <mxGraphModel dx="1422" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="JzZflCKOcfib3AqUFlqF-0" />
+        <mxCell id="JzZflCKOcfib3AqUFlqF-1" parent="JzZflCKOcfib3AqUFlqF-0" />
+        <mxCell id="eKP66zvQt933_Q3Im1Pk-0" value="&lt;h1&gt;Linux network namespace&lt;/h1&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Linux网络命名空间主要是用来隔离网络资源，为虚拟化、容器等提供隔离的网络环境&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;协议栈（路由表、ARP表、iptables规则）&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;网络接口&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;网络配置参数&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;常用的命令：&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns add [ns_name]&amp;nbsp; 添加网络命名空间&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns list&amp;nbsp; 列表显示所有网络命名空间&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns del [ns_name]&amp;nbsp; 删除指定的网络命名空间&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip netns exec [ns_name] &#39;command&#39; 在指定的网络命名空间里执行命令&lt;br&gt;例如：ip netns exec my_ns traceroute 192.168.1.101&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="JzZflCKOcfib3AqUFlqF-1">
+          <mxGeometry x="80" y="50" width="670" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ReqH7NMKHv7It6SqMCdA-0" value="&lt;h1&gt;Linux veth pair&lt;br&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;veth pair是一对虚拟网卡，主要用来连接不同的网络命名空间，&lt;/font&gt;通常用作以下场景：&lt;/div&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;两个不同的网络命名空间的连接&lt;br&gt;&lt;/li&gt;&lt;li&gt;网络命名空间和交换机端口的连接&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;常用的命令：&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip link add [name] type veth peer name [peer_name]&amp;nbsp; 创建veth pair&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ip link set [name] netns&lt;/font&gt;&amp;nbsp; 设置veth pair其中的一个接口所属的网络命名空间&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="JzZflCKOcfib3AqUFlqF-1">
+          <mxGeometry x="79" y="410" width="670" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ReqH7NMKHv7It6SqMCdA-1" value="&lt;h1&gt;Linux bridge&lt;br&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Linux bridge是一个软件实现的二层交换设备，主要用来连接多个网络命名空间实现二层互通&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;常用的命令：&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;brctl addbr [br_name]&amp;nbsp; 创建bridge&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;brctl addif [br_name] [dev]&amp;nbsp; 为bridge设备添加端口连接&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;brctl br list&amp;nbsp; 查看所有的bridge设备信息&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;brctl delif [br_name] [dev]&amp;nbsp; 删除指定接口&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;brctl delbr [br_name]&amp;nbsp; 删除bridge设备&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="JzZflCKOcfib3AqUFlqF-1">
+          <mxGeometry x="79" y="680" width="670" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
